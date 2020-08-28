@@ -1,16 +1,22 @@
 # covclass (Covid Classifier)
 A covid death classifier.
-- Data from https://covid19.karnataka.gov.in/english
+- Data from [Govt website](https://covid19.karnataka.gov.in/english)
 - Grabs the PDF, extracts the data using Py2PDF
 - Raw Data is cleaned using various methods including regex, identifying valid readable data pages
 - Data is stored in localdb.txt
-- This data is used to plot visualizations using https://plotly.com/
+- This data is used to plot visualizations using [Plotly](https://plotly.com/)
 
 Note : Readable data available from 21-07-2020. Data before this date is not included as it does not follow the conventions for clean data.
 
-(PR's welcome on branch:release)
+**(PR's welcome on branch:release)**
+***
+##Help me on/TO-DO
 
-#Changelog
+- [x] Inital release with basic visualizations
+- [ ] Add more informative metrics
+- [ ] Serve collected data via a REST API
+***
+##Changelog
 
 v1.0
 -Uploaded root directory
