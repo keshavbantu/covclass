@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>COVCLASS | Data Visualization</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/landing.css') }}">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+    <center>
+<h1>COVID-19 Deaths Classifier</h1>
+<p>No other websites gave insight into this data, that was considered <br>crucial
+during the initial outbreak of the Covid-19 Coronavirus.<br>
+Hospitals across New York were making thousands of life critical decisions using death metrics.<br>
+The Govt. of Karnataka uploads this very data <a href="http://covid19.karnataka.gov.in/govt_bulletin/en"><b>Here.</b></a><br>This Webapp grabs the PDF files, extracts the data in them<br>
+and presents them in a coincise data charts and other visualizations.<br>
+<br><i><b>The stats here are not modified, however errors will certainly creep in beacuse of unclean data</b></i></p>
+</center><center><h2>Age-wise</h2>
+<iframe id="igraph" scrolling="no" seamless="seamless" src="age" height="75%" width="75%"></iframe>
+<h2>Pre-exsisting Conditions</h2>
+<iframe id="igraph" scrolling="no" seamless="seamless" src="cond" height="75%" width="75%"></iframe>
+<h2>Symptoms Shown</h2>
+<iframe id="igraph" scrolling="no" seamless="seamless" src="symp" height="75%" width="75%"></iframe>
+</center>
+<br>
+<div class="footer">
+    <span id="f2"><b>&nbsp;projects</b></span><span id="a">.</span><span id="f"><b>bantuboi</b></span>
+</div>
+
+</body>
+</html>
