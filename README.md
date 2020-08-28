@@ -7,4 +7,5 @@ A covid death classifier.
 - This data is used to plot visualizations using https://plotly.com/
 
 Note : Readable data available from 21-07-2020. Data before this date is not included as it does not follow the conventions for clean data.
+
 (PR's welcome on branch:release)
