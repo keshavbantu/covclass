@@ -18,10 +18,9 @@ Note : Readable data available from 21-07-2020. Data before this date is not inc
 ***
 ##Changelog
 
-v1.0
--Uploaded root directory
--Static html file delivery
-
-v2.0
--Moved to Flask framework
--Improved CSS
+| Releases      | What changed?                   |
+| ------------- |:-------------------------------:|
+| 1.0           | -Uploaded root directory        |
+|               | -Static html file delivery      |
+| 2.0           | -Moved to Flask framework       |
+|               | -Improved CSS                   |
