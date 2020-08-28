@@ -10,14 +10,14 @@ Note : Readable data available from 21-07-2020. Data before this date is not inc
 
 **(PR's welcome on branch:release)**
 ***
-##Help me on/TO-DO
+## Help me on/TO-DO
 
 - [x] Inital release with basic visualizations
 - [ ] Add more informative metrics
 - [ ] Serve collected data via a REST API
 - [ ] Better CSS/look and feel
 ***
-##Changelog
+## Changelog
 
 | Releases      | What changed?                   |
 | ------------- |:-------------------------------:|
