@@ -9,3 +9,13 @@ A covid death classifier.
 Note : Readable data available from 21-07-2020. Data before this date is not included as it does not follow the conventions for clean data.
 
 (PR's welcome on branch:release)
+
+#Changelog
+
+v1.0
+-Uploaded root directory
+-Static html file delivery
+
+v2.0
+-Moved to Flask framework
+-Improved CSS
