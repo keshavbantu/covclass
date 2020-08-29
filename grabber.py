@@ -3,6 +3,7 @@ import PyPDF2 as pypdf
 import re
 import gc
 import dateRefresh as dR
+import os
 
 dateIter=dR.newDate
 #dateIter="28-07-2020"	#testing, comment this later
@@ -44,6 +45,10 @@ def dispData(basePage):	#basepage = (keyword symptoms)
 	return noSpace
 
 dload()
+if (os.path.exists("file.pdf"))==True:
+	print("File Found")
+else:
+	print("File not avilable")
 newPage=extract()
 cleanThis=dispData(newPage)
 localdb=open("localdb.txt", "a+")
