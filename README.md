@@ -14,7 +14,7 @@ Note : Readable data available from 21-07-2020. Data before this date is not inc
 
 - [x] Inital release with basic visualizations
 - [ ] Add more informative metrics
-- [ ] Serve collected data via a REST API
+- [x] Serve collected data via a REST API
 - [ ] Better CSS/look and feel
 ***
 ## Changelog
